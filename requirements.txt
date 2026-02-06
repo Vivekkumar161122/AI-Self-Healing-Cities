@@ -1,0 +1,10 @@
+torch
+tensorflow
+streamlit
+mesa
+geopandas
+matplotlib
+rocm-pytorch
+numpy
+pandas
+scikit-learn
