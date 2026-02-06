@@ -1,4 +1,4 @@
-# AI‑SelfHealing‑Cities 🌆
+# AI‑Self-Healing‑Cities 🌆
 Open Innovation Project – AMD Slingshot Hackathon
 
 ## 📌 Overview
