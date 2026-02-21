@@ -1,10 +1,6 @@
-torch
-tensorflow
-streamlit
-mesa
-geopandas
-matplotlib
-rocm-pytorch
-numpy
 pandas
+numpy
 scikit-learn
+matplotlib
+seaborn
+streamlit
