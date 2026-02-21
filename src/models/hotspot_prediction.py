@@ -2,8 +2,8 @@ import pandas as pd
 from sklearn.linear_model import LogisticRegression
 from sklearn.model_selection import train_test_split
 
-# Load dataset (make sure sample_aqi.csv exists in data/ folder)
-data = pd.read_csv("data/sample_aqi.csv")
+# Load dataset (make sure Delhi_AQI_2026.csv exists in data/ folder)
+data = pd.read_csv("Delhi_AQI_2026.csv")
 
 # Features: adjust column names to match your dataset
 X = data[["temperature", "humidity", "traffic_index"]]
