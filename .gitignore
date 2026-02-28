@@ -1,46 +1,36 @@
-# Byte-compiled / optimized / DLL files
+# =========================================
+# Python Bytecode / Compiled Files
+# =========================================
 __pycache__/
 *.py[cod]
 *$py.class
 
-# Jupyter Notebook checkpoints
-.ipynb_checkpoints
+# =========================================
+# Jupyter Notebook Checkpoints
+# =========================================
+.ipynb_checkpoints/
 
-# Virtual environments
-.env
-.venv/
-env/
-venv/
-
+# =========================================
 # Logs
+# =========================================
 *.log
 
-# Cache
+# =========================================
+# Cache / Temporary Files
+# =========================================
 .cache/
-.ruff_cache/
 .mypy_cache/
+.pytest_cache/
+.ruff_cache/
 
-# IDE settings (optional, if repo opened in PyCharm/IntelliJ)
-.idea/
-
-# Distribution / packaging
-build/
-dist/
-*.egg-info/
-.eggs/
-*.egg
-MANIFEST
-
-# Coverage / test reports
-htmlcov/
-.tox/
-.nox/
-.coverage
-.coverage.*
-nosetests.xml
-coverage.xml
-
-# Model artifacts
-# If you want to keep hotspot_model.pkl in repo, remove this line
+# =========================================
+# Model Artifacts (if exported)
+# =========================================
 *.pkl
 *.joblib
+
+# =========================================
+# Operating System Files
+# =========================================
+.DS_Store
+Thumbs.db
