@@ -3,10 +3,18 @@
 This folder contains datasets used for AI‑SelfHealing‑Cities.
 
 ## Files
-- `sample_aqi.csv` → AQI values with temperature, humidity, traffic index  
-- `weather_data.csv` → Weather readings (temperature, wind, humidity)  
-- `traffic_data.csv` → Traffic congestion index for hotspot prediction  
+- `Delhi_AQI.csv` → Air Quality Index dataset containing:
+- latitude
+- longitude
+- pollutant_min
+- pollutant_max
+- pollutant_avg 
 
 ## Notes
-- All datasets are anonymized and for demo purposes.  
-- Real‑world data sources: AQI monitoring stations, weather APIs, traffic sensors.
+- The dataset is structured tabular environmental data used for prototype  
+- Missing values in pollutant_avg are handled during preprocessing.
+- The data supports supervised machine learning classification tasks.
+- In real-world deployment, data could be sourced from:
+- Government AQI monitoring stations
+- Environmental sensor networks
+- Smart city data platforms
